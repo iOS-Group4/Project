@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B2905851DD8587800F8BC53 /* Report.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2905841DD8587800F8BC53 /* Report.storyboard */; };
+		3B2905871DD8588500F8BC53 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2905861DD8588500F8BC53 /* Setting.storyboard */; };
 		409CB05F1DD076CD001450EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409CB05E1DD076CD001450EC /* AppDelegate.swift */; };
 		409CB0611DD076CD001450EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409CB0601DD076CD001450EC /* ViewController.swift */; };
 		409CB0641DD076CD001450EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 409CB0621DD076CD001450EC /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B2905841DD8587800F8BC53 /* Report.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Report.storyboard; sourceTree = "<group>"; };
+		3B2905861DD8588500F8BC53 /* Setting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
 		409CB05B1DD076CD001450EC /* iOS-Group4-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Group4-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		409CB05E1DD076CD001450EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		409CB0601DD076CD001450EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				409CB0651DD076CD001450EC /* Assets.xcassets */,
 				409CB0671DD076CD001450EC /* LaunchScreen.storyboard */,
 				409CB06A1DD076CD001450EC /* Info.plist */,
+				3B2905841DD8587800F8BC53 /* Report.storyboard */,
+				3B2905861DD8588500F8BC53 /* Setting.storyboard */,
 			);
 			path = "iOS-Group4-Project";
 			sourceTree = "<group>";
@@ -126,7 +132,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B2905851DD8587800F8BC53 /* Report.storyboard in Resources */,
 				409CB0691DD076CD001450EC /* LaunchScreen.storyboard in Resources */,
+				3B2905871DD8588500F8BC53 /* Setting.storyboard in Resources */,
 				409CB0661DD076CD001450EC /* Assets.xcassets in Resources */,
 				409CB0641DD076CD001450EC /* Main.storyboard in Resources */,
 			);
@@ -301,6 +309,7 @@
 				409CB06F1DD076CD001450EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
