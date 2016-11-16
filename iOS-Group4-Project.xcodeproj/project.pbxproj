@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		3B2905851DD8587800F8BC53 /* Report.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2905841DD8587800F8BC53 /* Report.storyboard */; };
 		3B2905871DD8588500F8BC53 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2905861DD8588500F8BC53 /* Setting.storyboard */; };
+		40153F451DDC563A0033D5BA /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40153F441DDC563A0033D5BA /* Transaction.swift */; };
+		40153F471DDC56450033D5BA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40153F461DDC56450033D5BA /* User.swift */; };
+		40153F491DDC565D0033D5BA /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40153F481DDC565D0033D5BA /* Category.swift */; };
+		40153F4B1DDC614C0033D5BA /* AuthTypeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40153F4A1DDC614C0033D5BA /* AuthTypeEnum.swift */; };
 		409CB05F1DD076CD001450EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409CB05E1DD076CD001450EC /* AppDelegate.swift */; };
 		409CB0611DD076CD001450EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409CB0601DD076CD001450EC /* ViewController.swift */; };
 		409CB0641DD076CD001450EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 409CB0621DD076CD001450EC /* Main.storyboard */; };
@@ -20,6 +24,10 @@
 /* Begin PBXFileReference section */
 		3B2905841DD8587800F8BC53 /* Report.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Report.storyboard; sourceTree = "<group>"; };
 		3B2905861DD8588500F8BC53 /* Setting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		40153F441DDC563A0033D5BA /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		40153F461DDC56450033D5BA /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		40153F481DDC565D0033D5BA /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		40153F4A1DDC614C0033D5BA /* AuthTypeEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthTypeEnum.swift; sourceTree = "<group>"; };
 		409CB05B1DD076CD001450EC /* iOS-Group4-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Group4-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		409CB05E1DD076CD001450EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		409CB0601DD076CD001450EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +49,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40153F411DDC54950033D5BA /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Firebase;
+			sourceTree = "<group>";
+		};
+		40153F421DDC55E20033D5BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				40153F441DDC563A0033D5BA /* Transaction.swift */,
+				40153F461DDC56450033D5BA /* User.swift */,
+				40153F481DDC565D0033D5BA /* Category.swift */,
+				40153F4A1DDC614C0033D5BA /* AuthTypeEnum.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		40153F431DDC56190033D5BA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 		409CB0521DD076CD001450EC = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +94,9 @@
 		409CB05D1DD076CD001450EC /* iOS-Group4-Project */ = {
 			isa = PBXGroup;
 			children = (
+				40153F431DDC56190033D5BA /* Helpers */,
+				40153F421DDC55E20033D5BA /* Models */,
+				40153F411DDC54950033D5BA /* Firebase */,
 				409CB05E1DD076CD001450EC /* AppDelegate.swift */,
 				409CB0601DD076CD001450EC /* ViewController.swift */,
 				409CB0621DD076CD001450EC /* Main.storyboard */,
@@ -149,7 +185,11 @@
 			files = (
 				409CB0711DD076FC001450EC /* README.md in Sources */,
 				409CB0611DD076CD001450EC /* ViewController.swift in Sources */,
+				40153F451DDC563A0033D5BA /* Transaction.swift in Sources */,
+				40153F4B1DDC614C0033D5BA /* AuthTypeEnum.swift in Sources */,
+				40153F471DDC56450033D5BA /* User.swift in Sources */,
 				409CB05F1DD076CD001450EC /* AppDelegate.swift in Sources */,
+				40153F491DDC565D0033D5BA /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
