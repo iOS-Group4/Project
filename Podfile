@@ -5,5 +5,8 @@ target 'iOS-Group4-Project' do
     use_frameworks!
     
     pod 'Firebase'
+    pod 'FBSDKCoreKit'
+    pod 'FBSDKShareKit'
+    pod 'FBSDKLoginKit'
     
 end
