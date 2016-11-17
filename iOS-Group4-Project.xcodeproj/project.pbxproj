@@ -16,7 +16,7 @@
 		40153F491DDC565D0033D5BA /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40153F481DDC565D0033D5BA /* Category.swift */; };
 		40153F4B1DDC614C0033D5BA /* AuthTypeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40153F4A1DDC614C0033D5BA /* AuthTypeEnum.swift */; };
 		409CB05F1DD076CD001450EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409CB05E1DD076CD001450EC /* AppDelegate.swift */; };
-		409CB0611DD076CD001450EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409CB0601DD076CD001450EC /* ViewController.swift */; };
+		409CB0611DD076CD001450EC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409CB0601DD076CD001450EC /* LoginViewController.swift */; };
 		409CB0641DD076CD001450EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 409CB0621DD076CD001450EC /* Main.storyboard */; };
 		409CB0661DD076CD001450EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 409CB0651DD076CD001450EC /* Assets.xcassets */; };
 		409CB0691DD076CD001450EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 409CB0671DD076CD001450EC /* LaunchScreen.storyboard */; };
@@ -37,7 +37,7 @@
 		40153F4A1DDC614C0033D5BA /* AuthTypeEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthTypeEnum.swift; sourceTree = "<group>"; };
 		409CB05B1DD076CD001450EC /* iOS-Group4-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Group4-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		409CB05E1DD076CD001450EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		409CB0601DD076CD001450EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		409CB0601DD076CD001450EC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		409CB0631DD076CD001450EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		409CB0651DD076CD001450EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		409CB0681DD076CD001450EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -111,7 +111,7 @@
 				40153F421DDC55E20033D5BA /* Models */,
 				40153F411DDC54950033D5BA /* Firebase */,
 				409CB05E1DD076CD001450EC /* AppDelegate.swift */,
-				409CB0601DD076CD001450EC /* ViewController.swift */,
+				409CB0601DD076CD001450EC /* LoginViewController.swift */,
 				409CB0621DD076CD001450EC /* Main.storyboard */,
 				409CB0651DD076CD001450EC /* Assets.xcassets */,
 				409CB0671DD076CD001450EC /* LaunchScreen.storyboard */,
@@ -275,7 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				409CB0711DD076FC001450EC /* README.md in Sources */,
-				409CB0611DD076CD001450EC /* ViewController.swift in Sources */,
+				409CB0611DD076CD001450EC /* LoginViewController.swift in Sources */,
 				40153F451DDC563A0033D5BA /* Transaction.swift in Sources */,
 				40153F4B1DDC614C0033D5BA /* AuthTypeEnum.swift in Sources */,
 				40153F471DDC56450033D5BA /* User.swift in Sources */,
