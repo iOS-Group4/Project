@@ -14,13 +14,14 @@ class LoginViewController: UIViewController {
 
     
     @IBOutlet weak var loginButton: FBSDKLoginButton!
-    let loginManager = FBSDKLoginManager()
+//    let loginManager = FBSDKLoginManager()
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         loginButton.delegate = self
+        loginButton.readPermissions = ["email", "user_friends", "user_birthday", "user_location"]
     }
 
     override func didReceiveMemoryWarning() {
@@ -30,7 +31,10 @@ class LoginViewController: UIViewController {
 
     func returnUserData()
     {
-        let graphRequest : FBSDKGraphRequest = FBSDKGraphRequest(graphPath: "me", parameters: nil)
+        
+        // Retrieve User data
+
+        let graphRequest : FBSDKGraphRequest = FBSDKGraphRequest(graphPath: "me", parameters: ["fields":"id,name,picture.type(large),email,birthday,location"])
         graphRequest.start(completionHandler: { (connection, result, error) -> Void in
             
             if ((error) != nil)
