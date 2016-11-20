@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3B2905851DD8587800F8BC53 /* Report.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2905841DD8587800F8BC53 /* Report.storyboard */; };
 		3B2905871DD8588500F8BC53 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2905861DD8588500F8BC53 /* Setting.storyboard */; };
+		3B46D9D91DE18AD0003DBCAE /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B46D9D81DE18AD0003DBCAE /* TransactionCell.swift */; };
+		3B46D9DB1DE18B46003DBCAE /* AddTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B46D9DA1DE18B46003DBCAE /* AddTransactionViewController.swift */; };
 		3B46E0BD1DDC82AB00EB6A82 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B46E0BC1DDC82AB00EB6A82 /* GoogleService-Info.plist */; };
 		3B46E0C01DDC891700EB6A82 /* Summary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B46E0BF1DDC891700EB6A82 /* Summary.storyboard */; };
 		40153F451DDC563A0033D5BA /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40153F441DDC563A0033D5BA /* Transaction.swift */; };
@@ -28,6 +30,8 @@
 		1580A7DF585C8B96DF34A71A /* Pods-iOS-Group4-Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Group4-Project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Group4-Project/Pods-iOS-Group4-Project.debug.xcconfig"; sourceTree = "<group>"; };
 		3B2905841DD8587800F8BC53 /* Report.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Report.storyboard; sourceTree = "<group>"; };
 		3B2905861DD8588500F8BC53 /* Setting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		3B46D9D81DE18AD0003DBCAE /* TransactionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransactionCell.swift; path = Views/TransactionCell.swift; sourceTree = "<group>"; };
+		3B46D9DA1DE18B46003DBCAE /* AddTransactionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTransactionViewController.swift; sourceTree = "<group>"; };
 		3B46E0BC1DDC82AB00EB6A82 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3B46E0BE1DDC838700EB6A82 /* iOS-Group4-Project.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "iOS-Group4-Project.entitlements"; sourceTree = "<group>"; };
 		3B46E0BF1DDC891700EB6A82 /* Summary.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Summary.storyboard; sourceTree = "<group>"; };
@@ -59,6 +63,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B46D9D71DE18AAD003DBCAE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3B46D9D81DE18AD0003DBCAE /* TransactionCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		40153F411DDC54950033D5BA /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +118,7 @@
 		409CB05D1DD076CD001450EC /* iOS-Group4-Project */ = {
 			isa = PBXGroup;
 			children = (
+				3B46D9D71DE18AAD003DBCAE /* Views */,
 				3B46E0BE1DDC838700EB6A82 /* iOS-Group4-Project.entitlements */,
 				40153F431DDC56190033D5BA /* Helpers */,
 				40153F421DDC55E20033D5BA /* Models */,
@@ -113,13 +126,14 @@
 				409CB05E1DD076CD001450EC /* AppDelegate.swift */,
 				409CB0601DD076CD001450EC /* LoginViewController.swift */,
 				409CB0621DD076CD001450EC /* Main.storyboard */,
+				3B46E0BF1DDC891700EB6A82 /* Summary.storyboard */,
 				409CB0651DD076CD001450EC /* Assets.xcassets */,
 				409CB0671DD076CD001450EC /* LaunchScreen.storyboard */,
 				409CB06A1DD076CD001450EC /* Info.plist */,
 				3B2905841DD8587800F8BC53 /* Report.storyboard */,
 				3B2905861DD8588500F8BC53 /* Setting.storyboard */,
 				3B46E0BC1DDC82AB00EB6A82 /* GoogleService-Info.plist */,
-				3B46E0BF1DDC891700EB6A82 /* Summary.storyboard */,
+				3B46D9DA1DE18B46003DBCAE /* AddTransactionViewController.swift */,
 			);
 			path = "iOS-Group4-Project";
 			sourceTree = "<group>";
@@ -280,6 +294,8 @@
 				40153F4B1DDC614C0033D5BA /* AuthTypeEnum.swift in Sources */,
 				40153F471DDC56450033D5BA /* User.swift in Sources */,
 				409CB05F1DD076CD001450EC /* AppDelegate.swift in Sources */,
+				3B46D9DB1DE18B46003DBCAE /* AddTransactionViewController.swift in Sources */,
+				3B46D9D91DE18AD0003DBCAE /* TransactionCell.swift in Sources */,
 				40153F491DDC565D0033D5BA /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
